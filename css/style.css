@@ -29,7 +29,7 @@ body{
 }
 
 .container-small {
-    background-color: #ee82ee;
+    /* background-color: #ee82ee; */
     /* test */
 
     max-width: 800px;
@@ -39,7 +39,7 @@ body{
 }
 
 
-header, section {
+section {
     padding: 40px 20px;
 }
 
@@ -92,35 +92,75 @@ nav .login {
     text-align: right;
 }
 
-nav .login input{
-    padding: 8px;
-    background-color: white;
+input[type=button]{
     border: none;
     border-radius: 30px;
     font-family: Whitney, sans-serif;
-    font-size: 15px;
     cursor: pointer;
 }
 
-nav .login input:hover{
+input[type=button]:hover{
     filter:drop-shadow(0 3px 5px #141617)
 }
 /* fine sezione navbar */
 
+/* tre tipi di stile per pulsanti e due dimensioni */
+.btn-white{
+    background-color: white;
+}
 
+.btn-black{
+    background-color: #23272A;
+    color: white;
+}
+
+.btn-blue{
+    background-color: #8EA1E1;
+    color: white;
+}
+
+.btn-big{
+    padding: 15px 25px;
+    font-size: 16px;
+}
+
+.btn-small{
+    padding: 10px;
+    font-size: 13px;
+}
+/* fine tre tipi di stile per pulsanti e due dimensioni*/
 
 /* sezione hero */
-#hero {
-    background-color: #00008b;
-    /* test */
+#hero{
+    position: relative;
 }
 
-#hero .container-small {
-    height: 300px;
-    /* test */
+#hero img{
+    width: 100%;
 }
 
+#hero .container-small{
+    text-align: center;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+}
 
+#hero .container-small h1{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+#hero .container-small p{
+    margin-bottom: 30px;
+}
+
+#hero .container-small input{
+    margin: 10px;
+}
 /* fine sezione hero */
 
 
