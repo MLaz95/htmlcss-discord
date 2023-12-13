@@ -45,7 +45,7 @@ section {
 
 
 .bg-gray {
-    background-color: #d3d3d3;
+    background-color: #F6F6F6;
 }
 
 
@@ -150,7 +150,7 @@ input[type=button]:hover{
 }
 
 #hero .container-small h1{
-    font-size: 50px;
+    font-size: 56px;
     margin-bottom: 50px;
 }
 
@@ -190,17 +190,26 @@ input[type=button]:hover{
     color: #23272A;
 }
 
-.column-small h2{
-    font-size: 35px;
+section h2{
+    font-size: 48px;
     margin-bottom: 25px;
 }
 
-
+section h3{
+    font-size: 32px;
+    margin-bottom: 40px;
+}
 
 .big-content {
-    background-color: #228b22;
-    height: 600px;
+    /* background-color: #228b22;
+    height: 600px; */
     /* test */
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.big-content img{
+    max-width: 100%;
 }
 /* fine sezioni grigie */
 
