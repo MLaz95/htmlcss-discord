@@ -229,6 +229,11 @@ footer h4{
     width: 20px;
 }
 
+/* icone socials */
+.socials li a img{
+    color: white;
+}
+
 .footer-links ul{
     color: white;
     /* test */
