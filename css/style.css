@@ -5,6 +5,20 @@
 }
 /* reset */
 
+@font-face {
+    font-family: "Whitney";
+    src: url(../font/whitneymedium.otf);
+}
+
+@font-face {
+    font-family: "Whitney";
+    src: url(../font/whitneybold.otf);
+    font-weight: bold;
+}
+
+body{
+    font-family: Whitney, sans-serif;
+}
 
 /* i container hanno una dimensione fissa,  centrati orizzontalmente */
 .container {
