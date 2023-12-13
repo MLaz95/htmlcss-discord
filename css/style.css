@@ -170,24 +170,31 @@ input[type=button]:hover{
 }
 
 .column-big {
-    background-color: #1e90ff;
-    height: 400px;
-    border: dashed 2px black;
-    /* test */
-
     /* width: 60%; */
     flex-grow: 1;
 }
 
+.column-big img{
+    max-width: 100%;
+}
+
 .column-small {
-    background-color: #ffc0cb;
+    /* background-color: #ffc0cb;
     height: 400px;
     border: dashed 2px black;
-    /* test */
+    test */
 
     /* width: 40%; */
-    width: 400px;
+    max-width: 400px;
+    padding: 40px;
+    color: #23272A;
 }
+
+.column-small h2{
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
 
 
 .big-content {
