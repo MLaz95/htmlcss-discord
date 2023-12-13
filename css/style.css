@@ -78,12 +78,12 @@ nav .nav-links ul {
     gap: 12px;
 }
 
-nav .nav-links ul li a{
+ul li a{
     color: white;
     text-decoration: none;
 }
 
-nav .nav-links ul li a:hover{
+ul li a:hover{
     text-decoration: underline;
 }
 
@@ -220,9 +220,51 @@ footer {
     background-color: #23272a;
     /* test */
 
-    padding-top: 8px;
+    padding: 70px;
 }
 
+footer h4{
+    font-size: 32px;
+    color: #7289DB;
+    margin-bottom: 20px;
+}
+
+.footer-links .language{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+
+    margin-bottom: 15px;
+    color: white;
+}
+
+.language img[src="./img/ita.png"]{
+    width: 20px;
+}
+
+.footer-links ul{
+    color: white;
+    /* test */
+
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+    gap: 12px;
+}
+
+footer h5{
+    font-size: 16px;
+    font-weight: bold;
+    color: #7289DB;
+}
+
+.footer-column ul{
+    list-style-type: none;
+}
+
+.footer-column ul li{
+    line-height: 2em;
+}
 
 footer .container > * {
     border: dashed 2px white;
@@ -235,14 +277,14 @@ footer #footer-top {
 }
 
 footer #footer-top .footer-links {
-    background-color: #f08080;
-    height: 500px;
+    /* background-color: #f08080; */
+    /* height: 500px; */
     width: 250px;
     /* test */
 }
 
 footer #footer-top .footer-column {
-    background-color: #20b2aa;
+    /* background-color: #20b2aa; */
     /* test */
     
     flex-grow: 1;
