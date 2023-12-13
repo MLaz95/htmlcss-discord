@@ -22,9 +22,6 @@ body{
 
 /* i container hanno una dimensione fissa,  centrati orizzontalmente */
 .container {
-    border: dashed 2px black;
-    /* test */
-
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
@@ -56,34 +53,24 @@ header, section {
 
 /* sezione navbar */
 nav {
-    background-color: #add8e6;
-    /* test */
+    background-color: #3161E0;
     padding: 10px ;
 }
 
 nav .container > * {
-    border: dashed 2px black;
-    /* test */
-
     padding: 10px;
 }
 
 nav .container {
-    background-color: #daa520;
-    /* test */
-
     display: flex;
-
-}
-
-nav .logo {
-    width: 100px;
+    align-items: center;
 }
 
 
 nav .nav-links {
     flex-grow: 1;
 }
+
 nav .nav-links ul {
     display: flex;
     justify-content: center;
@@ -91,10 +78,32 @@ nav .nav-links ul {
     gap: 12px;
 }
 
+nav .nav-links ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav .nav-links ul li a:hover{
+    text-decoration: underline;
+}
 
 nav .login {
     width: 100px;
     text-align: right;
+}
+
+nav .login input{
+    padding: 8px;
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+    font-family: Whitney, sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+nav .login input:hover{
+    filter:drop-shadow(0 3px 5px #141617)
 }
 /* fine sezione navbar */
 
